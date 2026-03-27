@@ -1,0 +1,22 @@
+{
+  "name": "rinha-de-dev-v1-node",
+  "version": "1.0.0",
+  "description": "API para rinha de dev em Node com TypeScript e Fastify",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "ts-node src/index.ts"
+  },
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "fastify": "^4.26.2",
+    "pg": "^8.11.3"
+  },
+  "devDependencies": {
+    "@types/node": "^20.11.24",
+    "@types/pg": "^8.11.2",
+    "ts-node": "^10.9.2",
+    "typescript": "^5.3.3"
+  }
+}
