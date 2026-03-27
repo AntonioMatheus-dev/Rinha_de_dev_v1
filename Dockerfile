@@ -18,4 +18,4 @@ COPY --from=builder /app/dist ./dist
 
 EXPOSE 8080
 
-CMD ["npm", "start"]
+CMD ["node", "--max-old-space-size=64", "dist/index.js"]
